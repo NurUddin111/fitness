@@ -1,0 +1,52 @@
+.body {
+  background-color: black;
+}
+
+.btn-primary {
+  height: auto;
+  width: auto;
+  color: rgb(255, 255, 255);
+  background-color: #ff5400;
+  border: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.nav-title {
+  color: orangered;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.nav-links {
+  font-family: Mulish;
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  border: 1px solid gray;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+.nav-links li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.btn-home{
+    padding: 3px 10px;
+    border-radius: 40px;
+    font-weight: 600;
+}
