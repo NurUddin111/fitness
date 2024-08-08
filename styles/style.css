@@ -1,3 +1,5 @@
+/* The Following CSS Styles are for Whole Web Page. */
+
 .body {
   background-color: black;
 }
@@ -13,31 +15,33 @@
   align-items: center;
 }
 
+/* The Following CSS Styles are for Nav Bar Design */
+
 .nav-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
 
 .nav-title {
   color: orangered;
   font-family: Inter;
-  font-size: 36px;
+  font-size: 2.3rem;
   font-weight: 800;
 }
 
 .nav-links {
   font-family: Mulish;
-  font-size: 20px;
+  font-size: 1.2rem;
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 2.2rem;
   border: 1px solid gray;
-  padding: 10px 15px;
-  border-radius: 30px;
+  padding: 0.6rem 1rem;
+  border-radius: 1.9rem;
 }
 
 .nav-links li a {
@@ -45,8 +49,29 @@
   text-decoration: none;
 }
 
-.btn-home{
-    padding: 3px 10px;
-    border-radius: 40px;
-    font-weight: 600;
+.btn-home {
+  padding: 0.2rem 0.6rem;
+  border-radius: 2.3rem;
+  font-weight: 600;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* The Following CSS Styles are for Mobile Design */
+
+@media screen and (max-width: 576px) {
+  .nav-main {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
 }
