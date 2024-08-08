@@ -2,13 +2,14 @@
 
 .body {
   background-color: black;
+  font-family: "Mulish", sans-serif;
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
 
 .btn-primary {
   height: auto;
   width: auto;
-  color: rgb(255, 255, 255);
-  background-color: #ff5400;
   border: transparent;
   display: flex;
   justify-content: center;
@@ -21,19 +22,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 6rem;
-  margin-right: 6rem;
 }
 
 .nav-title {
   color: orangered;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 2.3rem;
   font-weight: 800;
 }
 
 .nav-links {
-  font-family: Mulish;
   font-size: 1.2rem;
   list-style: none;
   display: flex;
@@ -50,6 +48,7 @@
 }
 
 .btn-home {
+  background-color: #ff5400;
   padding: 0.2rem 0.6rem;
   border-radius: 2.3rem;
   font-weight: 600;
@@ -59,10 +58,55 @@
   display: none;
 }
 
+/* The Following CSS Styles are for Banner Section */
+
+.banner-main {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.banner-title {
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.shape {
+  font-family: "Great Vibes", cursive;
+}
+
+.banner-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+}
+
+.banner-btn {
+  display: flex;
+  gap: 1rem;
+}
+.btn-join {
+  color: rgb(255, 255, 255);
+  background-color: #ff5400;
+  padding: 0.4rem 1.5rem;
+  border-radius: 2.3rem;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.btn-download {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  padding: 0.4rem 1.5rem;
+  border: 1px solid white;
+  border-radius: 2.3rem;
+  font-size: 1.2rem;
+}
+
 /* The Following CSS Styles are for Mobile Design */
 
 @media screen and (max-width: 576px) {
-  .nav-main {
+  .body {
     margin-left: 1.3rem;
     margin-right: 1.3rem;
   }
@@ -73,5 +117,27 @@
 
   .hamburger {
     display: flex;
+  }
+
+  .banner-main {
+    flex-direction: column;
+  }
+
+  .banner-title {
+    font-size: 2rem;
+  }
+
+  .banner-description {
+    font-size: 1rem;
+  }
+
+  .btn-join {
+    padding: 0.2rem 1rem;
+    font-size: 1rem;
+  }
+
+  .btn-download {
+    padding: 0.2rem 1rem;
+    font-size: 1rem;
   }
 }
