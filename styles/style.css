@@ -158,6 +158,52 @@
   font-size: 1rem;
 }
 
+/* The Following CSS Styles are for "Change Your Habit Section" */
+
+.change-habit-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 4rem;
+  line-height: 1rem;
+}
+
+.change-habit-info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.all-habits {
+  margin-top: 3rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.habit-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.habit-image {
+  border-radius: 50%;
+}
+
+.habit-name {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: 0;
+}
+
+.habit-info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  text-align: center;
+}
+
 /* The Following CSS Styles are for Mobile Design */
 
 @media screen and (max-width: 576px) {
@@ -226,5 +272,30 @@
   }
   .overlay-two p {
     font-size: 0.5rem;
+  }
+
+  /* The Following CSS Styles are for "Change Your Habit Section" */
+
+  .change-habit-title {
+    font-size: 2rem;
+  }
+
+  .change-habit-info {
+    font-size: 0.8rem;
+  }
+
+  .all-habits {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .habit-name {
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+
+  .habit-info {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
   }
 }
