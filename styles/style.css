@@ -85,6 +85,7 @@
   display: flex;
   gap: 1rem;
 }
+
 .btn-join {
   color: rgb(255, 255, 255);
   background-color: #ff5400;
@@ -204,6 +205,37 @@
   text-align: center;
 }
 
+/* The following CSS styles are for "Run an extra mile" section */
+
+.run-section {
+  height: auto;
+  width: auto;
+  border-radius: 1rem;
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  gap: 15rem;
+  justify-content: center;
+  margin-top: 5rem;
+  padding: 3rem;
+}
+
+.run-section-title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.run-section-info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+}
+
+.run-image {
+  height: 22rem;
+  width: auto;
+  border-radius: 1rem;
+}
+
 /* The Following CSS Styles are for Mobile Design */
 
 @media screen and (max-width: 576px) {
@@ -297,5 +329,33 @@
   .habit-info {
     font-size: 0.8rem;
     line-height: 1.5rem;
+  }
+
+  /* The following CSS styles are for "Run an extra mile" section */
+
+  .run-section {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+  }
+
+  .run-section-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .run-section-title {
+    font-size: 2rem;
+  }
+
+  .run-section-info {
+    font-size: 0.6rem;
+  }
+
+  .run-image {
+    height: 14rem;
+    width: auto;
+    border-radius: 1rem;
   }
 }
