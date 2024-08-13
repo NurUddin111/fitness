@@ -236,6 +236,51 @@
   border-radius: 1rem;
 }
 
+/* The Following CSS Styles are for "Meet Our Team" Section Design */
+
+.our-team {
+  margin-left: 13rem;
+  margin-right: 13rem;
+  background-color: rgb(34, 34, 34);
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  border-radius: 2rem;
+  margin-top: 3rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+}
+
+.team-member {
+  position: relative;
+}
+
+.team-member-details {
+  position: absolute;
+  top: 10rem;
+  left: 1rem;
+}
+
+.team-member-image {
+  height: 15rem;
+  width: 17rem;
+  border-radius: 2rem;
+}
+
+.team-member-name {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.team-member-status {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  line-height: 0;
+}
+
 /* The Following CSS Styles are for Mobile Design */
 
 @media screen and (max-width: 576px) {
@@ -358,4 +403,42 @@
     width: auto;
     border-radius: 1rem;
   }
+
+  /* The Following CSS Styles are for "Meet Our Team" Section Design */
+
+  .our-team {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    gap: 1rem;
+    grid-template-columns: repeat(1, auto);
+  }
+/* 
+  .team-member {
+    position: relative;
+  }
+
+  .team-member-details {
+    position: absolute;
+    top: 10rem;
+    left: 1rem;
+  }
+
+  .team-member-image {
+    height: 15rem;
+    width: 17rem;
+    border-radius: 2rem;
+  }
+
+  .team-member-name {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 0;
+  }
+
+  .team-member-status {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    line-height: 0;
+  } */
 }
