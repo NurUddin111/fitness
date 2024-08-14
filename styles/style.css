@@ -216,6 +216,7 @@
   gap: 15rem;
   justify-content: center;
   margin-top: 5rem;
+  margin-bottom: 5rem;
   padding: 3rem;
 }
 
@@ -236,6 +237,125 @@
   border-radius: 1rem;
 }
 
+/* The Following CSS Styles are for "BMI Calculator" Section Design */
+
+.bmi-calculations {
+  background-color: rgb(34, 34, 34);
+  margin-top: 3rem;
+  border-radius: 1rem;
+  display: flex;
+  gap: 5rem;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
+}
+
+.bmi-calc-sec-title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  line-height: 0;
+}
+
+.bmi-calc-sec-info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.bmi-chart h1 {
+  color: rgb(255, 255, 255);
+  font-size: 1.75rem;
+  font-weight: 900;
+  text-align: left;
+}
+
+.bmi-chart table,
+th,
+td {
+  border: 0.06rem solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  padding: 0.4rem 2rem;
+}
+
+.bmi-chart tr > th {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.bmi-chart tr {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.bmi-calculator h1 {
+  color: rgb(255, 255, 255);
+  font-size: 1.75rem;
+  font-weight: 900;
+  text-align: left;
+}
+
+.bmi-calculator p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.input {
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 2rem;
+  outline: none;
+  width: 10rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+}
+
+.input-height-weight {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-age-sex {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.select {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 14.3rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+}
+
+.gender {
+  color: black;
+}
+
+.activity {
+  margin-bottom: 1rem;
+}
+
+.activity-factor {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 29.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+}
+
 /* The Following CSS Styles are for "Meet Our Team" Section Design */
 
 .our-team {
@@ -250,6 +370,20 @@
   gap: 1.5rem;
   grid-template-columns: repeat(3, auto);
   justify-content: center;
+}
+
+.our-team-title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 0;
+  text-align: center;
+}
+
+.our-team-info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .team-member {
@@ -412,33 +546,51 @@
     gap: 1rem;
     grid-template-columns: repeat(1, auto);
   }
-/* 
-  .team-member {
-    position: relative;
+
+  /* The Following CSS Styles are for "BMI Calculator" Section Design */
+
+  .bmi-calculations {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    padding: 1rem;
   }
 
-  .team-member-details {
-    position: absolute;
-    top: 10rem;
-    left: 1rem;
+  .bmi-calc-sec-title {
+    font-size: 2rem;
   }
 
-  .team-member-image {
-    height: 15rem;
-    width: 17rem;
-    border-radius: 2rem;
+  .bmi-chart h1 {
+    font-size: 1rem;
+    }
+
+  .bmi-calculator h1 {
+    font-size: 1rem;
   }
 
-  .team-member-name {
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 600;
-    line-height: 0;
+  .input {
+    padding: 0.5rem;
+    width: 9.5rem;
   }
 
-  .team-member-status {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 0.8rem;
-    line-height: 0;
-  } */
+  .input-height-weight {
+    gap: 0.5rem;
+  }
+
+  .input-age-sex {
+    gap: 0.5rem;
+  }
+
+  .select {
+    width: 11.4rem;
+    padding: 0.5rem;
+    outline: none;
+  }
+
+  .activity-factor {
+    width: 22rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+  }
 }
