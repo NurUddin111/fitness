@@ -366,6 +366,7 @@ td {
   padding-bottom: 0.5rem;
   border-radius: 2rem;
   margin-top: 3rem;
+  margin-bottom: 3rem;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(3, auto);
@@ -415,6 +416,61 @@ td {
   line-height: 0;
 }
 
+/* The Following CSS Styles are for "Footer" Section Design */
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+}
+
+.footer-sub {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-part-one-title {
+  color: rgb(230, 83, 60);
+  font-family: "Inter", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+.footer-part-one-info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  line-height: 150%;
+  text-align: left;
+}
+
+.footer-part-two-title {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.footer-part-two ul > li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.3rem;
+  line-height: 140%;
+  text-align: left;
+}
+
+.line {
+  width: 50rem;
+  height: 0.01rem;
+  background: white;
+}
+
+.copy-right {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
 /* The Following CSS Styles are for Mobile Design */
 
 @media screen and (max-width: 576px) {
@@ -562,7 +618,7 @@ td {
 
   .bmi-chart h1 {
     font-size: 1rem;
-    }
+  }
 
   .bmi-calculator h1 {
     font-size: 1rem;
@@ -592,5 +648,19 @@ td {
     padding: 0.5rem;
     font-size: 1rem;
     outline: none;
+  }
+
+  /* The Following CSS Styles are for "Footer" Section Design */
+
+  .footer-sub {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+
+  .line {
+    width: 20rem;
+    height: 0.01rem;
+    background: white;
   }
 }
